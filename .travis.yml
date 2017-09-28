@@ -10,5 +10,3 @@ node_js:
 branches:
 except:
 - /^v\d+\.\d+\.\d+$/
-before_install:
-- npm i -g npm@version-number
