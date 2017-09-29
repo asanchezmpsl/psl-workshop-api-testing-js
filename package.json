@@ -14,7 +14,7 @@
     "mochawesome": "^2.3.1"
   },
   "scripts": {
-    "test": "mocha --reporter mochawesome --reporter-options reportDir=report,reportFilename=ApiTesting"
+    "test": "mocha -t 5000 --reporter mochawesome --reporter-options reportDir=report,reportFilename=ApiTesting"
   },
   "repository": {
     "type": "git",
