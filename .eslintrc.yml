@@ -1,11 +1,16 @@
+---
+plugins:
+  - import
 env:
-es6: true
-node: true
-mocha: true
+  es6: true
+  node: true
+  mocha: true
 extends:
-- eslint: recommended
-- airbnb-base
-- plugin: import/errors
-- plugin: import/warnings
+  - eslint:recommended
+  - airbnb-base
+  - plugin:import/errors
+  - plugin:import/warnings
 rules:
-"comma-dangle": ["error", "never"]
+  comma-dangle: 
+    - error
+    - never
