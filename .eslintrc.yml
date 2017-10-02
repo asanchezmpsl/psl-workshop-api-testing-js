@@ -15,5 +15,3 @@ rules:
     - error
     - never
   prefer-destructuring: ["error", {VariableDeclarator: {object: false}}]
-
-  
