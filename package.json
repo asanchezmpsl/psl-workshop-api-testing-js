@@ -4,7 +4,6 @@
   "description": "This a workshop about api testing in javascript",
   "main": "index.js",
   "dependencies": {
-    "lifecycle-node": "^1.0.1",
     "superagent": "^3.6.0",
     "superagent-promise": "^1.1.0"
   },
