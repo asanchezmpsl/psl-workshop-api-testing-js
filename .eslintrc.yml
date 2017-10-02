@@ -14,3 +14,4 @@ rules:
   comma-dangle: 
     - error
     - never
+  prefer-destructuring: ["error", {VariableDeclarator: {object: false}}]
